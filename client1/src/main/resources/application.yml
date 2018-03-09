@@ -1,0 +1,9 @@
+server:
+  port: 7070
+spring:
+  application:
+    name: cloud-client
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://10.10.1.48:8081/eureka/
